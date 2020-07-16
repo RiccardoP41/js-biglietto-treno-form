@@ -1,0 +1,51 @@
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+    /* cancellare */
+    /* height: 1400px; */
+    background-color: tomato;
+}
+
+.form {
+    margin: 50px 0;
+    /* cancellare */
+    border: 1px solid black;
+    /* height: 300px; */
+}
+
+.row {
+    display: flex;
+}
+
+.row.richieste{
+    justify-content: space-around;
+    margin: 0 30px 30px;
+}
+
+.row.buttons {
+    justify-content: center;
+}
+
+button {
+    margin: 0 20px 20px;
+}
+
+.biglietto {
+
+    /* cancellare */
+    border: 1px solid black;
+    height: 300px;
+}
+
+table {
+    width: 100%;
+}
+
+.centrato {
+    text-align: center;
+}
+
+.maiuscolo {
+    text-transform: uppercase;
+}
