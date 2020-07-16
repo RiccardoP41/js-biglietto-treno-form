@@ -64,7 +64,7 @@ document.getElementById("genera").addEventListener("click", function(){
     }else {
         sconto += "Paghi Tutto"
     }
-    document.getElementById("pb").innerHTML = pb;
+    document.getElementById("pb").innerHTML = "€ " + pb;
     document.getElementById("sconto").innerHTML = sconto;
 
     biglietto.className = "show";
