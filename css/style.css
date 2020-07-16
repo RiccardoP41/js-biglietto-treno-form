@@ -31,11 +31,11 @@ button {
     margin: 0 20px 20px;
 }
 
-.biglietto {
+#biglietto {
 
     /* cancellare */
     border: 1px solid black;
-    height: 300px;
+    /* height: 300px; */
 }
 
 table {
@@ -49,3 +49,12 @@ table {
 .maiuscolo {
     text-transform: uppercase;
 }
+
+.hidden {
+    opacity: 0;
+    transition: 0.4s;
+}
+ .show {
+     opacity: 1;
+     transition: 0.4s;
+ }
