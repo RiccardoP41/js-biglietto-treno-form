@@ -30,10 +30,10 @@
 // var categoria = document.getElementById('categoria').value;
 // var sconto = "";
 // if (categoria == "cinno") {
-//     pb * 0.8;
+//     pb *= 0.8;
 //     sconto += "Sconto Minorenne"
 // }else if (categoria == "senior") {
-//     pb * 0.6;
+//     pb *= 0.6;
 //     sconto += "Sconto Silver"
 // }else {
 //     sconto += "Paghi Tutto"
@@ -56,15 +56,15 @@ document.getElementById("genera").addEventListener("click", function(){
     var categoria = document.getElementById('categoria').value;
     var sconto = "";
     if (categoria == "cinno") {
-        pb * 0.8;
+        pb *= 0.8;
         sconto += "Sconto Minorenne"
     }else if (categoria == "senior") {
-        pb * 0.6;
+        pb *= 0.6;
         sconto += "Sconto Silver"
     }else {
         sconto += "Paghi Tutto"
     }
-    document.getElementById("pb").innerHTML = "€ " + pb;
+    document.getElementById("pb").innerHTML = "€ " + pb.toFixed(2);
     document.getElementById("sconto").innerHTML = sconto;
 
     biglietto.className = "show";
